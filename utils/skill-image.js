@@ -81,7 +81,33 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
-
+import ai from '../app/assets/svg/skills/ai.svg';
+import amazon from '../app/assets/svg/skills/amazon.svg';
+import apiGateway from '../app/assets/svg/skills/api-gateway.svg';
+import augmented from '../app/assets/svg/skills/augmented.svg';
+import aurora from '../app/assets/svg/skills/aurora.svg';
+import awslambda from '../app/assets/svg/skills/aws-lambda.svg';
+import claude from '../app/assets/svg/skills/claude.svg';
+import cloudsearch from '../app/assets/svg/skills/cloud-search.svg';
+import crewai from '../app/assets/svg/skills/crewai.svg';
+import elasticContainerService from '../app/assets/svg/skills/elastic-container-service.svg';
+import elasticache from '../app/assets/svg/skills/ElastiCache.svg';
+import eventBridge from '../app/assets/svg/skills/event-bridge.svg';
+import fargate from '../app/assets/svg/skills/Fargate.svg';
+import gemini from '../app/assets/svg/skills/gemini.svg';
+import huggingface from '../app/assets/svg/skills/huggingface.svg';
+import lambdaIcon from '../app/assets/svg/skills/lambda.svg';
+import langchain from '../app/assets/svg/skills/langchain.svg';
+import langfuse from '../app/assets/svg/skills/langfuse.svg';
+import ollama from '../app/assets/svg/skills/ollama.svg';
+import openai from '../app/assets/svg/skills/openai.svg';
+import prompt from '../app/assets/svg/skills/prompt.svg';
+import pydanticIcon from '../app/assets/svg/skills/pydantic.svg';
+import security from '../app/assets/svg/skills/security.svg';
+import s3 from '../app/assets/svg/skills/simple-storage-service.svg';
+import splunk from '../app/assets/svg/skills/splunk.svg';
+import stepFunctions from '../app/assets/svg/skills/step-functions.svg';
+import sumerian from '../app/assets/svg/skills/sumerian.svg';
 
 
 export const skillsImage = (skill) => {
@@ -242,7 +268,7 @@ export const skillsImage = (skill) => {
     case '.net':
       return dotnet;
     case '.net core':
-      return dotnetcore
+      return dotnetcore;
     case 'kubernetes':
       return kubernetes;
     case 'linux':
@@ -251,7 +277,69 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'ecs':
+    case 'elastic container service':
+    case 'elastic container service (ecs)':
+      return elasticContainerService;
+    case 'lambda':
+      return lambdaIcon;
+    case 's3':
+    case 'simple storage service':
+      return s3;
+    case 'fargate':
+      return fargate;
+    case 'elasticsearch':
+    case 'elasticache':
+      return elasticache;
+    case 'api gateway':
+      return apiGateway;
+    case 'event bridge':
+      return eventBridge;
+    case 'aurora':
+      return aurora;
+    case 'aws lambda':
+      return awslambda;
+    case 'cloud search':
+      return cloudsearch;
+    case 'ai':
+    case 'ai assistants':
+    case 'ai agents':
+    case 'prompt engineering':
+      return ai;
+    case 'claude':
+      return claude;
+    case 'gemini':
+      return gemini;
+    case 'openai':
+      return openai;
+    case 'ollama':
+      return ollama;
+    case 'huggingface':
+      return huggingface;
+    case 'prompt':
+      return prompt;
+    case 'langchain':
+      return langchain;
+    case 'langfuse':
+      return langfuse;
+    case 'crewai':
+    case 'crew ai':
+      return crewai;
+    case 'pydantic':
+      return pydanticIcon;
+    case 'splunk':
+      return splunk;
+    case 'security':
+      return security;
+    case 'finops':
+    case 'devsecops':
+      return amazon;
+    case 'observability':
+    case 'load balancer':
+      return aws;
+    case 'modelops':
+      return ai;
     default:
-      break;
+      return aws;
   }
 }

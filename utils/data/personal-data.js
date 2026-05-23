@@ -1,8 +1,8 @@
 export const personalData = {
   name: "Agilan Vageesan",
   profile: '/profile.jpg',
-  designation: "Software Developer",
-  description: "Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in .Net Framework/.Net Core Full-Stack Development, SQL Server Reporting Services (SSRS), C#, Angular, Javascript, and TeamCity. Strong engineering professional with a Bachelor of Technology - BTech focused in Electrical, Electronics, and Communications Engineering.",
+  designation: "Senior Full Stack Developer",
+  description: "Senior Full Stack Developer with strong experience across .NET, C#, React, Next.js, Angular, PostgreSQL, SQL Server, REST APIs, AWS, Docker, CI/CD, and DevSecOps. I also build AI assistants, agents, RAG systems, and cloud-native services, and I enjoy taking proofs of concept through to production-ready delivery.",
   email: 'agilanvageesan@gmail.com',
   phone: '9944014313',
   address: 'Bangalore',

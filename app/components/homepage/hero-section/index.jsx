@@ -114,23 +114,25 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">Angular</span>
+                <span className="text-amber-300">.NET</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">.Net</span>
+                <span className="text-amber-300">C#</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">React</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">SQL</span>
+                <span className="text-amber-300">Next.js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AI & ML</span>
+                <span className="text-amber-300">PostgreSQL</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">After Effects</span>
+                <span className="text-amber-300">REST APIs</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Automation</span>
+                <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+                <span className="text-amber-300">AI Agents</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">RAG</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>

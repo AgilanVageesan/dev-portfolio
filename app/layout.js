@@ -9,9 +9,24 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Agilan Vageesan - Software Developer",
+  title: "Agilan Vageesan | Senior Software Engineer",
   description:
-    "This is the portfolio of Agilan Vageesan. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Senior Software Engineer helping teams build AI assistants and agents, prompt engineering workflows, RAG systems, CI/CD pipelines, AWS infrastructure-as-code, observability, and market-ready products.",
+  keywords: [
+    "Senior Software Engineer",
+    "AI assistants",
+    "AI agents",
+    "Prompt Engineering",
+    "RAG",
+    "CI/CD",
+    "DevSecOps",
+    "AWS infrastructure as code",
+    "Observability",
+    "SLO",
+    "SLI",
+    "Security Champion",
+    "Public Speaker",
+  ],
 };
 
 export default function RootLayout({ children }) {
